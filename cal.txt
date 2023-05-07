@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    
+</head>
+<body>
+    <form method = "POST">
+        <div class="div-result">
+        <input type="text" name="result" value="<?= $num ?>">
+        </div>
+
+
+        <div class="div-buttun">
+            <div class="div-button-1">
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="7" type="submit">7</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="8" type="submit">8</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="9" type="submit">9</button>
+                </div>
+                <div class="button button-2">
+                    <button style="cursor:pointer;" name="num" value="*" type="submit">X</button>
+                </div>
+            </div>
+
+
+            <div class="div-button-2">
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="4" type="submit">4</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="5" type="submit">5</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="6" type="submit">6</button>
+                </div>
+                <div class="button button-2">
+                    <button style="cursor:pointer;" name="num" value="-" type="submit">-</button>
+                </div>            
+            </div>
+
+
+            <div class="div-button-3">
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="1" type="submit">1</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="2" type="submit">2</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="3" type="submit">3</button>
+                </div>
+                <div class="button button-2">
+                    <button style="cursor:pointer;" name="num" value="+" type="submit">+</button>
+                </div>
+            </div>
+
+
+            <div class="div-button-4">
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value="0" type="submit">0</button>
+                </div>
+                <div class="button button-1">
+                    <button style="cursor:pointer;" name="num" value=".">.</button>
+                </div>
+                <div class="button button-2">
+                    <button style="cursor:pointer;" name="egal" value="" type="submit">=</button>
+                </div>
+                <div class="button button-2">
+                    <button style="cursor:pointer;" name="num" value="/" type="submit">/</button>
+                </div>                
+            </div>
+
+            <div class="button button-2 ef">
+                    <button 
+                    style="width: 230px; margin: top 5px; border-radius:10px; height:55px; text-align:center; cursor:pointer" 
+                    name="clear" value="C" type="submit">Effacer</button>
+                </div>
+            
+            
+            
+        </div>
+    </form>
+</body>
+</html>

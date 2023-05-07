@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("./pexels-flickr-157040.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+Ces styles vont positionner la calculatrice de manière absolue par rapport à son conteneur parent, puis la déplacer de 50% vers le haut et 50% vers la gauche. En utilisant la transformation translate(-50%, -50%), cela permettra de centrer la calculatrice parfaitement au milieu de ton conteneur.
+   */
+
+.div-button button {
+    width: 60px;
+    height: 60px;
+}
+
+.div-result input {
+    width: 250px;
+    height: 100px;
+}
+
+.ef button {
+    width: 255px;
+}
+
+@media screen and (max-width: 553px) {
+    .div-button button {
+        width: 50px;
+        height: 50px;
+    }
+
+    .div-result input {
+        width: 213px;
+        height: 80px;
+    }
+
+    .ef button {
+        width: 213px;
+    }
+}
